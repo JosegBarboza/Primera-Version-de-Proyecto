@@ -10,15 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Concert+One&family=Exo+2&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
     <link rel="stylesheet" href="./index.css" />
     <link rel="icon" href="./Fotos/favicon.ico" />
   </head>
   <body>
     <header class="cabecera">
       <nav class="cabecera1">
-        <a href="index.html"><img src="./Fotos/logo.png" alt="Foto Logo" class="logo" /></a>
+        <a href="./index.html"><img src="./Fotos/logo.png" alt="Foto Logo" class="logo" /></a>
         <h1 class="Titulo">MUNDO ENCARGADO</h1>
         <a
           href="https://www.facebook.com/profile.php?id=100012642136177"
@@ -46,17 +45,41 @@
           <li><a href="./page/muebles.html">Muebles</a></li>
           <li><a href="./page/contacto.html">Contacto</a></li>
         </ul>
-        <form>
-          <input type="text" placeholder="Buscar..." name="buscar" />
-          <button type="submit">Buscar</button>
-        </form>
-      </nav>
-
-      <nav></nav>
+         <form >
+           <input type="text" placeholder="Buscar..." name="buscar" />
+           <button type="submit">Buscar</button>
+         </form>
+     </nav>
+      
     </header>
     <hr />
-    <main class="principal">
-      <img src="./Fotos/Foto encargado.png" alt="Foto Encargado" />
+    <main class="principal col-lg-12 col-md-12 col-sm-12">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Fotos/Foto encargado.png" class="d-block w-100" alt="foto encargado">
+          </div>
+          <div class="carousel-item">
+            <img src="./Fotos/Foto encargado.png" class="d-block w-100" alt="foto encargado">
+          </div>
+          <div class="carousel-item">
+            <img src="./Fotos/Foto encargado.png" class="d-block w-100" alt="foto encargado">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       <p class="detalle">
         Somos un grupo que entendemos que "Ser Encargado" va mucho mas allá de
         una responsabilidad laboral.
