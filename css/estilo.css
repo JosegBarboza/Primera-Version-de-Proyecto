@@ -104,6 +104,7 @@
     margin: auto;
     padding: auto;
   }
+
   .Titulo {
     color: rgb(252, 251, 251);
     text-align: center;
@@ -169,6 +170,9 @@
       height: auto;
       border-radius: 8px;
   }
+  .img:hover {
+    transform: scale(1.1, 1.1);
+  }
   .p{
     font-family: "Concert One", sans-serif;
     font-size: medium;
@@ -177,7 +181,7 @@
   .final {
     padding: 20px 20px;
     border-radius: 2px;
-    background-color: #fd0505;
+    background: linear-gradient(red, rgb(119, 1, 1), red);
     text-align: center;
     font-size: 25px;
   }
