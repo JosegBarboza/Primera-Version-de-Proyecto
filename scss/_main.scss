@@ -1,0 +1,121 @@
+button {
+  padding: 8px 12px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+
+main {
+background-color: rgb(255, 255, 255);
+}
+
+.principal {
+color: rgb(7, 7, 7);
+text-align: center;
+font-family: "Concert One", sans-serif;
+font-size: 50px;
+}
+
+.detalle {
+@media only screen and (min-width: 300px), (min-width: 600px), (min-width: 768px), (min-width: 1200px) {
+  font-size: 0.5em;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  font-size: 0.75em;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+  font-size: 1em;
+  margin-bottom: 30px;
+}
+}
+
+.grupo-imagenes {
+  text-align: center;
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+
+  &:hover {
+    transform: scale(1.1, 1.1);
+  }
+}
+
+.p {
+  font-family: "Concert One", sans-serif;
+  font-size: medium;
+  text-align: center;
+}
+.pincipal img {
+  margin: 10%;
+  padding: 10%;
+}
+fieldset {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.form-buttons {
+  text-align: right;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #555;
+  }
+}
+
+.medio {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

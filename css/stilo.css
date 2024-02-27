@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+header {
+  background-color: rgb(255, 0, 0);
+  display: flex;
+  flex-direction: column;
+}
+
+.redes {
+  max-width: 100%;
+  height: auto;
+}
+
+.cabecera1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+nav {
+  padding: 1rem;
+}
+
+.Menu {
+  list-style: none;
+  display: flex;
+}
+.Menu li {
+  margin-right: 20px;
+}
+.Menu a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #333;
+  transition: background-color 0.3s ease;
+}
+.Menu a:hover {
+  background-color: #555;
+}
+
+.buscador {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Titulo {
+  color: rgb(252, 251, 251);
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+}
+@media only screen and (min-width: 600px) {
+  .Titulo {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .Titulo {
+    font-size: 3em;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .Titulo {
+    font-size: 4em;
+    margin-bottom: 50px;
+  }
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  position: fixed;
+}
+
+h3 {
+  font-family: "Handlee", cursive;
+}
+
+.face,
+.insta,
+.whatsapp {
+  margin: 10px;
+}
+
+.medio h1 {
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+.logo {
+  width: 200px;
+  display: flex;
+  justify-content: start;
+}
+
+form {
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+main {
+  background-color: rgb(255, 255, 255);
+}
+
+.principal {
+  color: rgb(7, 7, 7);
+  text-align: center;
+  font-family: "Concert One", sans-serif;
+  font-size: 50px;
+}
+
+@media only screen and (min-width: 300px), (min-width: 600px), (min-width: 768px), (min-width: 1200px) {
+  .detalle {
+    font-size: 0.5em;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .detalle {
+    font-size: 0.75em;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .detalle {
+    font-size: 1em;
+    margin-bottom: 30px;
+  }
+}
+
+.grupo-imagenes {
+  text-align: center;
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.p {
+  font-family: "Concert One", sans-serif;
+  font-size: medium;
+  text-align: center;
+}
+
+.pincipal img {
+  margin: 10%;
+  padding: 10%;
+}
+
+fieldset {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input[type=checkbox] {
+  margin-right: 5px;
+}
+
+.form-buttons {
+  text-align: right;
+}
+
+input[type=submit],
+input[type=reset] {
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+input[type=submit]:hover,
+input[type=reset]:hover {
+  background-color: #555;
+}
+
+.medio {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: rgb(255, 0, 0);
+  margin: auto;
+  padding: auto;
+}
+
+.final {
+  padding: 20px 20px;
+  border-radius: 2px;
+  background: linear-gradient(red, rgb(243, 208, 208), red);
+  text-align: center;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=stilo.css.map */
