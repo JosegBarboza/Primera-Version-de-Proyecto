@@ -175,15 +175,20 @@ main {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+  transition: 0,3s;
 }
 .img:hover {
   transform: scale(1.1, 1.1);
+  transition: 0,3s;
 }
 
 .p {
   font-family: "Concert One", sans-serif;
   font-size: medium;
   text-align: center;
+  z-index: 5;
+  position: relative;
+  
 }
 
 .pincipal img {
